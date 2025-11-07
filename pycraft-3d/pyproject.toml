@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pycraft-3d"
+version = "0.1.0"
+description = "A 3D Minecraft-style game built with Pygame."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
